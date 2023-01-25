@@ -1,8 +1,8 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "./components/footerComponent/Footer";
+import Header from "./components/headerComponent/Header";
 import HomeScreen from "./components/homeComponents/HomeScreen";
 import NewRecipeScreen from "./components/newRecipeComponents/NewRecipeScreen";
 import DetailScreen from "./components/detailComponents/DetailScreen";
