@@ -4,7 +4,8 @@ footer {
   background-color: #3C3F42;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 50px;
   position: absolute;
   bottom: 0;
 }
@@ -12,6 +13,14 @@ footer {
 h5 {
   color: var(--primary);
   text-align: center;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+.social_container {
+  margin-left: 50px;
 }
 
 .social {

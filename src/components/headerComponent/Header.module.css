@@ -20,7 +20,7 @@ header > h2 {
   font-size: large;
 }
 
-button:hover {
+.header_button:hover {
   color: var(--hover-color);
   font-weight: 300;
   box-shadow: 3px 3px var(--primary);
