@@ -1,5 +1,5 @@
 import React from "react";
-import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
+import { ImFacebook, ImInstagram, ImTwitter, ImGithub, ImLinkedin } from "react-icons/im";
 
 import styles from "./Footer.module.css"
 
