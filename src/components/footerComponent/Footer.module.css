@@ -1,13 +1,32 @@
 footer {
   height: 150px;
   width: 100%;
-  background-color: #3f3f3f;
-  color: var(--primary);
+  background-color: #3C3F42;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
   bottom: 0;
-  margin-top: 100px;
-  box-sizing: border-box;
+}
+
+h5 {
+  color: var(--primary);
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #407566;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 5px;
 }
