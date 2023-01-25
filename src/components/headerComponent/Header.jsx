@@ -6,13 +6,13 @@ import styles from "./Header.module.css";
 const Header = () => {
 	return (
 		<header>
-			<h2>Joy's Eatery</h2>
+			<h2>DevMountain Eatery</h2>
 			<nav>
 				<Link to="">
-					<button className={styles.nav_btn}>Home</button>
+					<button>Home</button>
 				</Link>
 				<Link to="/newRecipe">
-					<button className={styles.nav_btn}>Add Recipe</button>
+					<button>Add Recipe</button>
 				</Link>
 			</nav>
 		</header>
