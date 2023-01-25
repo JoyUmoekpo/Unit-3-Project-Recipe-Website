@@ -20,15 +20,15 @@ header > h2 {
   font-size: large;
 }
 
+button:hover {
+  color: var(--hover-color);
+  font-weight: 300;
+  box-shadow: 3px 3px var(--primary);
+}
+
 .header_button {
   color: var(--primary);
   border: none;
   background-color: inherit;
   padding: 5px;
-}
-
-button:hover {
-  color: var(--hover-color);
-  font-weight: 300;
-  box-shadow: 3px 3px var(--primary);
 }
