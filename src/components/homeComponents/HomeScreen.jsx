@@ -3,10 +3,8 @@ import axios from 'axios'
 
 import AdBanner from './AdBanner'
 
-
 const HomeScreen = () => {
   const [recipes, setRecipes] = useState([]);
-  
   
   const getRecipes = () => {
     axios
