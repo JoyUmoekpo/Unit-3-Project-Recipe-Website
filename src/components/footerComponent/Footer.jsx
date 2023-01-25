@@ -1,9 +1,11 @@
 import React from "react";
 import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
 
+import styles from "./Footer.module.css"
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles}>
       <div>
         <h5>Hit us up on our socials!</h5>
         <div>
