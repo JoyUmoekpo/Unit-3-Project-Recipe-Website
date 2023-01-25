@@ -20,7 +20,7 @@ header > h2 {
   font-size: large;
 }
 
-button {
+.header_button {
   color: var(--primary);
   border: none;
   background-color: inherit;
