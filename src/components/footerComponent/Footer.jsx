@@ -1,24 +1,24 @@
 import React from "react";
-import { ImFacebook, ImInstagram, ImTwitter, ImGithub, ImLinkedin } from "react-icons/im";
+import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
 
 import styles from "./Footer.module.css"
 
 const Footer = () => {
   return (
-    <footer className={styles}>
+    <footer>
       <div>
         <h5>Hit us up on our socials!</h5>
-        <div className={styles.icons}>
-          <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
+        <div className={styles.social}>
+          <a href="https://www.devmountain.com" target="_blank" rel="noreferrer" className={styles.social_circle}>
             <ImFacebook size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
+          <a href="https://www.devmountain.com" target="_blank" rel="noreferrer" className={styles.social_circle}>
             <ImInstagram size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
+          <a href="https://www.devmountain.com" target="_blank" rel="noreferrer" className={styles.social_circle}>
             <ImTwitter size="1.5em" color="#3f3f3f" />
           </a>
-          <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
+          <a href="https://www.devmountain.com" target="_blank" rel="noreferrer" className={styles.social_circle}>
             <ImGithub size="1.5em" color="#3f3f3f" />
           </a>
         </div>
