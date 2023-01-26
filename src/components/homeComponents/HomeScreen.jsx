@@ -5,8 +5,6 @@ import AdBanner from "./AdBanner";
 import RecipeCard from "../RecipeCardComponents/RecipeCard";
 import SearchBar from "../SearchComponents/SearchBar";
 
-// import styles from "./Home.module.css";
-
 const HomeScreen = () => {
 	const [recipes, setRecipes] = useState([]);
 
@@ -24,7 +22,7 @@ const HomeScreen = () => {
 	return (
 		<div>
 			<AdBanner />
-			<SearchBar />
+			<SearchBar recipes={recipes}/>
 			<RecipeCard />
 		</div>
 	);
