@@ -29,9 +29,6 @@ const SearchBar = ({ recipes }) => {
 					className={styles.search_bar}
 				/>
 			</div>
-			<div>
-				{recipeDisplay ? recipeDisplay : <h2>No Recipes :(</h2>}
-			</div>
 		</div>
 	);
 };
