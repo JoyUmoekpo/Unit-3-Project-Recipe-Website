@@ -1,32 +1,32 @@
 .card {
-  width: 175px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   /* justify-content: space-between; */
-  padding-bottom: 5px;
-  margin-top: 45px;
-  margin-left: 375px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 300px;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
 }
 
 .recipe_image {
-  width: 175px;
-  height: 125px;
+  width: 150px;
+  height: 100px;
 }
 
 .recipe_text {
   font-size: small;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 button {
   color: var(--primary);
   background-color: #7BA09B;
+  margin-top: 1px;
   padding: 5px;
   border: none;
 }
