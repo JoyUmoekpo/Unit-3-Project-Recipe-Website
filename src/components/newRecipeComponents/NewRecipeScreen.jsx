@@ -10,12 +10,6 @@ const NewRecipeScreen = () => {
   const [quantity, setQuantity] = useState("");
   const url = "https://recipes.devmountain.com";
 
-  const addIngredient = () => {
-    setIngredients([...ingredients, { name, quantity }]);
-    setName("");
-    setQuantity("");
-  };
-
   const initialValues = {
     type: "",
     recipeName: "",
@@ -31,15 +25,12 @@ const NewRecipeScreen = () => {
     values.ingredients = ingredients;
     console.log(values);
   };
-  //   axios
-  //     .post(`https://recipes.devmountain.com/recipes`, values)
-  //     .then((res) => {
-  //       console.log(res.data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
+
+  const addIngredient = () => {
+    setIngredients([...ingredients, { name, quantity }]);
+    setName("");
+    setQuantity("");
+  };
 
   const ingredientDisplay = ingredients.map((ing) => {
     return (
