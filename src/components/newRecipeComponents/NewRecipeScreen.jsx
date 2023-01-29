@@ -1,12 +1,15 @@
 import React from "react";
 
+import styles from "./NewRecipeScreen.module.css";
+
 const NewRecipeScreen = () => {
-  return (
-    <section>
-      <h1>Tell us about your Recipe!</h1>
-      {/* Here you will have a large form. Be prepared, part 4 will have you build this form in detail, and part 5 will have you style it. Do your best! */}
-    </section>
-  );
+	return (
+		<section>
+			<form>
+				<h1 className={styles.form_title}>Tell us about your Recipe!</h1>
+			</form>
+		</section>
+	);
 };
 
 export default NewRecipeScreen;
