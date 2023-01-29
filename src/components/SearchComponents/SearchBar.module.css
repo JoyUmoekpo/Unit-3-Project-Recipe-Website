@@ -1,7 +1,7 @@
 .search {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .search_bar {
@@ -26,6 +26,6 @@
   gap: 20px;
   height: 225px;
   width: 85%;
-  overflow: scroll;
+  overflow: scroll hidden;
   margin-left: 10%;
 }

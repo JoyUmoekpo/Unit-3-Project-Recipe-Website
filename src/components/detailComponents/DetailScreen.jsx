@@ -27,7 +27,7 @@ const DetailScreen = () => {
           url(${salmon})`,
 					backgroundSize: "cover",
 				}}>
-				<h1>{recipes.recipe_name}</h1>
+				<h1 className={styles.recipe_name}>{recipes.recipe_name}</h1>
 			</div>
 			<div className={styles.details}>
 				<div className={styles.ingredients}>

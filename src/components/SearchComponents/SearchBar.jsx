@@ -20,7 +20,7 @@ const SearchBar = ({ recipes }) => {
 	return (
 		<div>
 			<div className={styles.search}>
-				<BiSearch className={styles.search_icon} size="2em" color="#DA7635"/>
+				<BiSearch className={styles.search_icon} color="#DA7635"/>
 				<input
 					type="text"
 					value={search}
