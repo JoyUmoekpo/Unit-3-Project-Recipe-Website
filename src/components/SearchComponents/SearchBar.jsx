@@ -20,7 +20,7 @@ const SearchBar = ({ recipes }) => {
 	return (
 		<div>
 			<div className={styles.search}>
-				<BiSearch className={styles.search_icon} />
+				<BiSearch className={styles.search_icon} size="2em" color="#DA7635"/>
 				<input
 					type="text"
 					value={search}
@@ -29,6 +29,9 @@ const SearchBar = ({ recipes }) => {
 					className={styles.search_bar}
 				/>
 			</div>
+			<div className={styles.recipes_container}>
+        {recipeDisplay}
+      </div>
 		</div>
 	);
 };

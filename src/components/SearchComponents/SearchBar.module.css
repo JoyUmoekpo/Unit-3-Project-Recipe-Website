@@ -15,8 +15,17 @@
 }
 
 .search_icon {
-  color: #FD7F20;
   background-color: #FED8B1;
   border-radius: 20px 0 0 20px;
   padding: 3px;
+}
+
+.recipes_container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 225px;
+  width: 85%;
+  overflow: scroll;
+  margin-left: 10%;
 }

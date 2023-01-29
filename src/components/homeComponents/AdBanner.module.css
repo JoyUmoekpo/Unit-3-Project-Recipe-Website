@@ -18,6 +18,7 @@ h3 {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-repeat: no-repeat;
 }
 
 .banner_text {

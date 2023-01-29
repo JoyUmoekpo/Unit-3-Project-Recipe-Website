@@ -21,7 +21,7 @@ header > h2 {
 }
 
 .header_button:hover {
-  color: var(--hover-color);
+  background-color: var(--hover-color);
   font-weight: 300;
   box-shadow: 3px 3px var(--primary);
 }

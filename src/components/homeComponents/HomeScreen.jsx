@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import AdBanner from "./AdBanner";
-import RecipeCard from "../RecipeCardComponents/RecipeCard";
 import SearchBar from "../SearchComponents/SearchBar";
 
 const HomeScreen = () => {
@@ -23,7 +22,6 @@ const HomeScreen = () => {
 		<div>
 			<AdBanner />
 			<SearchBar recipes={recipes}/>
-			<RecipeCard />
 		</div>
 	);
 };

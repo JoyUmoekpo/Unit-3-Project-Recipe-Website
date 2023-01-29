@@ -13,7 +13,7 @@ const DetailScreen = () => {
 		axios.get(`https://recipes.devmountain.com/recipes/${id}`).then((res) => {
 			setRecipe(res.data);
 		});
-	}, []);
+	}, [id]);
 
 	return (
 		<section>
@@ -27,7 +27,7 @@ const DetailScreen = () => {
           url(${salmon})`,
 					backgroundSize: "cover",
 				}}>
-				<h1>Pineapple Salmon</h1>
+				<h1>{recipes.recipe_name}</h1>
 			</div>
 			<div className={styles.details}>
 				<div className={styles.ingredients}>
