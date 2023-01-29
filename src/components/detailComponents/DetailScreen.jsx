@@ -31,12 +31,12 @@ const DetailScreen = () => {
 			</div>
 			<div className={styles.details}>
 				<div className={styles.ingredients}>
-					<h2 className={styles.detail_text}>Recipe</h2>
-					<h4>Prep Time:</h4>
-					<h4>Cook Time:</h4>
-					<h4>Serves:</h4>
+					<h2 className={styles.detail_title}>Recipe</h2>
+					<h4>Prep Time: {recipes.prep_time}</h4>
+					<h4>Cook Time: {recipes.cook_time}</h4>
+					<h4>Serves: {recipes.serves}</h4>
 					<br />
-					<h2 className={styles.detail_text}>Ingredients</h2>
+					<h2 className={styles.detail_title}>Ingredients</h2>
 					{recipes.ingredients &&
 						recipes.ingredients.map((ing, index) => {
 							return (
@@ -47,7 +47,7 @@ const DetailScreen = () => {
 						})}
 				</div>
 				<div className={styles.instructions}>
-					<h2 className={styles.detail_text}>Instructions</h2>
+					<h2 className={styles.detail_title}>Instructions</h2>
 					<p style={{ whiteSpace: "pre-wrap" }}>
 						{recipes.instructions && JSON.parse(recipes.instructions)}
 					</p>
